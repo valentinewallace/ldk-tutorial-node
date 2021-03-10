@@ -241,6 +241,7 @@ version = "0.1.0"
 dependencies = [
  "background-processor",
  "base64",
+ "bech32 0.7.2",
  "bitcoin",
  "bitcoin-bech32",
  "hex",
@@ -283,7 +284,6 @@ dependencies = [
 [[package]]
 name = "lightning-invoice"
 version = "0.4.0"
-source = "git+https://github.com/rust-bitcoin/rust-lightning-invoice?rev=ea25dc7e46a6339493032c500db4fe3a8fdb1acd#ea25dc7e46a6339493032c500db4fe3a8fdb1acd"
 dependencies = [
  "bech32 0.7.2",
  "bitcoin_hashes",
